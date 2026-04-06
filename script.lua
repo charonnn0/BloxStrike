@@ -7,7 +7,7 @@ local Window = Rayfield:CreateWindow({
     Name = "[📜] Blox Strike",
     Icon = 0,
     LoadingTitle = "[📜] Blox Strike",
-    LoadingSubtitle = "by twistedk1d",
+    LoadingSubtitle = "by charon",
     ShowText = "Script",
     Theme = "Default",
     ToggleUIKeybind = Enum.KeyCode.F5,
@@ -15,7 +15,7 @@ local Window = Rayfield:CreateWindow({
     DisableBuildWarnings = false,
     ConfigurationSaving = {
         Enabled = true,
-        FolderName = "twistedk1d",
+        FolderName = "charon",
         FileName = "BloxStrike"
     }
 })
@@ -23,7 +23,7 @@ local Window = Rayfield:CreateWindow({
 --// Info Tab
 local Tab_Info = Window:CreateTab("Info", "info")
 
-Tab_Info:CreateLabel("Script developed by twistedk1d",        "code",     Color3.fromRGB(80,80,80), false)
+Tab_Info:CreateLabel("Script developed by charon",        "code",     Color3.fromRGB(80,80,80), false)
 Tab_Info:CreateLabel("All scripts were written manually",     "terminal", Color3.fromRGB(80,80,80), false)
 Tab_Info:CreateLabel("Specifically for Blox Strike",          "crosshair",Color3.fromRGB(80,80,80), false)
 Tab_Info:CreateLabel("Thank you for using our script",        "heart",    Color3.fromRGB(80,80,80), false)
